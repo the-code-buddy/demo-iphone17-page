@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: soul;
+    src: url(/SoulDaisy.otf);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#box{
+    height: 100%;
+    width: 100%;
+    
+   background-image: url(https://images.unsplash.com/photo-1757708944594-3c0838f945ce?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #EC5E22;
+    border-radius: 60px;
+
+    
+}
+#box h1{
+    color: white;
+    text-align: center;
+    margin-left: 50%;
+    padding-top: 220px;
+    font-size: 65px;
+    font-family: 'soul', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+#box button{
+    display: block;
+    margin: 50px  auto;
+    margin-left: 68%;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #EC5E22;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #000000;
+    
+}
+button:hover{
+        background-color: #ff7043;
+        transform: scale(1.07);
+    }
